@@ -5,6 +5,8 @@
 The goal of this project is to perform data analytics on Uber data using various tools and technologies, including GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio.
 
 ## Architecture 
+The architecture diagram depicts data storage in Google Cloud Storage, serving as the object storage. Transformation logic will be scripted in Python and deployed using the open-source data pipeline tool, MAGE. Subsequently, data will load into BigQuery, GCP's data warehouse. The final dashboard will be constructed in Looker, leveraging various components.
+
 ![architecture (1)](https://github.com/ishujeetSingh1/Uber-Data-Analysis/assets/142827400/a4761842-eb24-42ec-9fae-eba2c38ca171)
 
 
